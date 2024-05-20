@@ -5,14 +5,14 @@ module:
 
 params:
     mainSections:
-        - post
+        - posts
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon: favicon.ico
 
     footer:
-        since:
-        customText:
+        since: 2024
+        customText: "footer test"
 
     dateFormat:
         published: Jan 02, 2006
@@ -21,17 +21,17 @@ params:
     sidebar:
         compact: false
         emoji:
-        subtitle:
+        subtitle: "UI/UX Designer"
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: img/avatar.jpg
 
     article:
         headingAnchor: false
         math: false
         toc: true
-        readingTime: true
+        readingTime: false
         license:
             enabled: false
             default: Licensed under CC BY-NC-SA 4.0
