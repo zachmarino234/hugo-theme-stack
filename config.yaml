@@ -15,8 +15,8 @@ params:
         customText: "footer test"
 
     dateFormat:
-        published: Jan 02, 2006
-        lastUpdated: Jan 02, 2006 15:04 MST
+        published: Jan 2006
+        lastUpdated: Jan 02, 2006 15:04 EST
 
     sidebar:
         compact: false
@@ -118,8 +118,12 @@ params:
             id:
 
     widgets:
-        homepage: []
-        page: []
+        homepage:
+            - type: categories
+            - type: tag-cloud
+            - type: archives
+        page:
+            - type: toc
 
     opengraph:
         twitter:
@@ -147,3 +151,39 @@ params:
             enabled: true
         content:
             enabled: true
+
+menu:
+    main: []
+
+    social:
+        - identifier: github
+          name: Github
+          url: https://github.com/zachmarino234
+          weight: 100
+          params:
+            icon: brand-github
+            newTab: true
+        
+        - identifier: linkedin
+          name: LinkedIn
+          url: https://www.linkedin.com/in/zach-marino/
+          weight: 10
+          params:
+            icon: brand-linkedin
+            newTab: true 
+        
+        - identifier: email
+          name: Email
+          url: mailto:zachmarino234@gmail.com
+          weight: 1
+          params:
+            icon: mail
+        
+        - identifier: figma
+          name: Figma
+          url: https://www.figma.com/@zachmarino
+          weight: 50
+          params:
+            icon: brand-figma
+            newTab: true
+            
