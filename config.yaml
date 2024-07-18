@@ -12,7 +12,7 @@ params:
 
     footer:
         since: 2024
-        customText: "footer test"
+        customText: "UI/UX designer, Product designer, Front-end developer, UX researcher, Music lover"
 
     dateFormat:
         published: Jan 2006
