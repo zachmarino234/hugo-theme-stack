@@ -164,6 +164,14 @@ menu:
             icon: brand-github
             newTab: true
         
+        - identifier: behance
+          name: Behance
+          url: https://www.behance.net/zacharymarino
+          weight: 20
+          params:
+            icon: brand-behance
+            newTab: true 
+
         - identifier: linkedin
           name: LinkedIn
           url: https://www.linkedin.com/in/zach-marino/
