@@ -12,7 +12,7 @@ params:
 
     footer:
         since: 2024
-        customText: "UI/UX designer, Product designer, Front-end developer, UX researcher, Music lover"
+        customText: "UX Engineer, Product designer, Front-end developer, Music lover"
 
     dateFormat:
         published: Jan 2006
@@ -21,7 +21,7 @@ params:
     sidebar:
         compact: false
         emoji:
-        subtitle: "UI/UX Designer"
+        subtitle: "UX Engineer"
         avatar:
             enabled: true
             local: true
