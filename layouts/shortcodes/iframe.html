@@ -1,0 +1,9 @@
+<!-- layouts/shortcodes/iframe.html -->
+<iframe 
+    src="{{ .Get "src" }}"
+    style="{{ .Get "style" | default "" }}"
+    width="{{ .Get "width" | default "100%" }}"
+    height="{{ .Get "height" | default "400" }}"
+    frameborder="0"
+    allowfullscreen>
+</iframe>
